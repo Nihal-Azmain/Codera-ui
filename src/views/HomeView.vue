@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import { defineAsyncComponent } from 'vue';
+
+const Navbar= defineAsyncComponent(()=>import('../components/Navbar.vue'))
+
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <Navbar />
+  <router-view />
 </template>

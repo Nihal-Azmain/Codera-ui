@@ -1,7 +1,9 @@
 <script setup lang="ts">
+import { defineAsyncComponent } from 'vue';
+
 
 </script>
 
 <template>
-  <router-view />
+PROBLEM VIEW
 </template>
