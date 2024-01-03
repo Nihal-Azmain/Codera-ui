@@ -34,6 +34,11 @@ const router = createRouter({
           component: () => import('../views/RegisterView.vue')
         },
         {
+          path: 'activate_account',
+          name:'activate-account',
+          component: () => import('../views/ActivateAccountView.vue')
+        },
+        {
           path: 'reset_password',
           name:'reset-password',
           component: () => import('../views/ResetPasswordView.vue')

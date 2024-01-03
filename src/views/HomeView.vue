@@ -7,5 +7,7 @@ const Navbar= defineAsyncComponent(()=>import('../components/Navbar.vue'))
 
 <template>
   <Navbar />
-  <router-view />
+  <div class="justify-between items-center mx-auto max-w-screen-xl p-4 ">
+    <router-view />
+  </div>
 </template>
